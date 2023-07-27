@@ -24,8 +24,8 @@ def son_imagenes_duplicadas(imagen1, imagen2):
         return False
 
 # Path of the images you want to compare
-imagen1_path = "C:/Users/migue/OneDrive/Escritorio/OK/jaredmarciano1.jpg" # PATH 1 
-imagen2_path = "C:/Users/migue/OneDrive/Escritorio/OK/jaredmarciano1.2.jpg" #PATH 2
+imagen1_path = "C:/Users/Miguel/Desktop/example1.jpg" # PATH 1 
+imagen2_path = "C:/Users/Miguel/Desktop/example2.jpg" #PATH 2
 
 if son_imagenes_duplicadas(imagen1_path, imagen2_path):
     print("Las imágenes son duplicadas.")
